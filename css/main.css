@@ -23,7 +23,7 @@ body {
   text-decoration: none;
   font-weight: 600;
   color: black;
-  font-size: 0.9em;
+  font-size: 01em;
 }
 
 .navbar nav {
@@ -41,33 +41,86 @@ body {
   cursor: pointer;
 }
 
-.hero {
+.hero-section {
   text-align: center;
-  padding: 3em 1em;
+  padding: 4em 1em;
 }
 
-.hero h1 {
+.hero-section .hero-img {
+  width: 70%;
+}
+
+.hero-section h1 {
   padding: 0;
-  font-size: 2.1em;
-  margin-top: 1.5em;
+  font-size: 2.2em;
+  margin-top: 2em;
   margin-bottom: 0em;
+  font-weight: 600;
+  color: var(--primary-color);
 }
 
-.hero p {
+.hero-section p {
   margin: 0;
+  color: var(--primary-color);
 }
 
-.hero .hero-img {
-  width: 60%;
-}
-
-.hero .hero-buttons {
+.hero-section .hero-buttons {
   padding: 0%;
-  margin-top: 3em;
+  margin-top: 2em;
 }
 
-.hero .hero-buttons a {
+.hero-section .hero-buttons a {
   text-decoration: none;
   color: black;
+}
+
+.hero-section .hero-buttons .our-product-btn {
+  background: var(--secondary-color);
+  color: black;
+  text-decoration: none;
+  padding: 1em 1.3em;
+  font-size: 0.8em;
+  border-radius: 5em;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.hero-section .hero-buttons .contact-us-btn {
+  padding-left: 1em;
+  font-size: 0.8em;
+}
+
+.products-section {
+  padding: 0em 1em 3em;
+}
+
+.products-section h1 {
+  margin: 0;
+  font-size: 2em;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.products-section p.subhead {
+  margin-top: 2em;
+  margin-bottom: 0;
+  color: var(--primary-color);
+}
+
+.products-section .right-col {
+  margin-top: 2.5em;
+  text-align: center;
+}
+
+.products-section .right-col img {
+  width: 40%;
+}
+
+.products-section .right-col p {
+  margin-top: 0em;
+  margin-bottom: 0;
+  font-size: 2em;
+  opacity: 0.8;
+  color: var(--primary-color);
 }
 /*# sourceMappingURL=main.css.map */
